@@ -46,3 +46,26 @@ const secondBurger = structuredClone(hamburger);
 const thirdBurger = structuredClone(hamburger);
 
 // Sono stati creati 9 oggetti, 3 per ogni oggetto creato
+
+// QUESTION 4
+
+const chef = {
+	name: "Chef Hyur",
+	age: 29,
+	makeBurger: (num = 1) => {
+		console.log(`Ecco ${num} hamburger per te!`);
+	},
+}
+
+const restaurant = {
+	name: "Hyur's Burgers",
+	address: {
+		street: 'Main Street',
+		number: 123,
+	},
+	openingDate: new Date(2025, 3, 11),
+	isOpen: false,
+};
+
+// Il metodo migliore per copiare chef è con la spread syntax
+//Il metodo migliore per copiare restaurant structuredclone
