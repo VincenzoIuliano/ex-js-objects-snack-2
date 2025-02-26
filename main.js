@@ -96,5 +96,6 @@ secondBurger.maker.name = "Chef Hyur";
 
 console.log(hamburger.maker.name); // Chef Hyur
 console.log(secondBurger.maker.name); // Chef Hyur
-console.log(hamburger.maker.restaurant.name); // Hyur's Burgers
+console.log(hamburger.maker.restaurant.name); // Hyur's II
 console.log(secondBurger.maker.restaurant.name); // Hyur's II
+
