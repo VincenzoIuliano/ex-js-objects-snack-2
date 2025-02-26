@@ -99,3 +99,28 @@ console.log(secondBurger.maker.name); // Chef Hyur
 console.log(hamburger.maker.restaurant.name); // Hyur's II
 console.log(secondBurger.maker.restaurant.name); // Hyur's II
 
+//QUESTION 6
+
+const chef = {
+	name: "Chef Hyur",
+	age: 29,
+	makeBurger: (num = 1) => {
+		console.log(`Ecco ${num} hamburger per te!`);
+	},
+	restaurant: {
+		name: "Hyur's Burgers",
+		welcomeClient: () => {
+			console.log("Benvenuto!");
+		},
+		address: {
+			street: 'Main Street',
+			number: 123,
+			showAddress: () => {
+				console.log("Main Street 123");
+			}
+		},
+		isOpen: true,
+	}
+}
+
+//Il metodo migliore per copiare chef è con la spread syntax, facendo spread annidati
